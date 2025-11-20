@@ -1,7 +1,7 @@
 # TodoList API (ASP.NET Core)
 
 A simple TodoList API project built with **ASP.NET Core** and documented using **Swagger**.  
-Currently, the project runs with Swagger UI only — **no database integration yet**.
+Currently, the project runs with Swagger UI only.
 
 ---
 
