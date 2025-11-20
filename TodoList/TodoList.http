@@ -1,0 +1,31 @@
+@rootURL = http://localhost:5140
+
+###
+GET {{rootURL}}/api/todo
+Accept: application/json
+
+###
+GET {{rootURL}}/api/todo/1
+Accept: application/json
+
+###
+POST {{rootURL}}/api/todo
+Content-Type: application/json
+{
+  "id": 7,
+  "TaskName":"Go to clinic",
+  "IsCompleted" : "N"
+}
+###
+PUT {{rootURL}}/api/todo/1
+Content-Type: application/json
+{
+  "id": 1,
+  "TaskName":"Go to Taman Universiti",
+  "IsCompleted" : "Y"
+}
+
+###
+DELETE {{rootURL}}/api/todo/2
+
+
